@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'Apple Libertador San Martin';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'Buscanos en Instagram para una mejor comunicacion: /napple.libertador';
+    : 'Instagram: apple.libertador';
 
   return {
     name,
